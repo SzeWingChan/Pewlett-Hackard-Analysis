@@ -1,3 +1,6 @@
+-- 7.2.2 
+-- Create tables in SQL
+
 -- Creating tables for PH-EmployeeDB
 CREATE TABLE departments (
      dept_no VARCHAR(4) NOT NULL,
@@ -63,3 +66,4 @@ SELECT * FROM dept_emp;
 SELECT * FROM titles;
 
 DROP TABLE titles CASCADE;
+
